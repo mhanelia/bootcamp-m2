@@ -29,7 +29,8 @@ steps:
 - task: PublishTestResults@2
   displayName: 'Exibindo resultado dos testes'
   inputs:
-    testResultFiles: '**/junit-*.xml'
+    testResultsFiles: '**/junit-*.xml'
     mergeTestResults: true
-    testRunTitle: 'Agilizei Bootcamp Módulo 2'
-  continueOnError: true
+    testRunTitle: 'Agilizei módulo 2'
+  continueOnError: true  
+    
