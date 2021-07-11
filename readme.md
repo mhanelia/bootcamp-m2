@@ -52,7 +52,7 @@ npx cypress open
 npx cypress run --browser chrome --headless
 ````
 
-![browser-chorme](doc\chrome.png)
+![browser-chorme](https://github.com/mhanelia/bootcamp-m2/blob/master/doc/chrome.png)
 
 dessa forma, o Cypress irá executar em background utilizando o Chrome, outros valores no lugar de `chrome` são: `firefox`, `edge` e `electron`
 
@@ -70,4 +70,4 @@ npx cypress run --spec cypress/integration/login.spec.js
 
 nesse caso, o navegador é opicional. Caso nenhum navegador seja informado, por padrão será executado no Electron:
 
-![spec-electron](doc\spec.png)
+![spec-electron](https://github.com/mhanelia/bootcamp-m2/blob/master/doc/spec.png)
